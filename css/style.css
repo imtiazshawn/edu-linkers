@@ -409,9 +409,6 @@
 
 
 /*** Footer ***/
-.footer {
-    margin-top: 5rem;
-}
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
@@ -482,10 +479,15 @@
     padding-bottom: 3rem;
 }
 
+
+
 @media (min-width: 576px) {
     .section-gap {
         padding-top: 5rem;
         padding-bottom: 5rem;
+    }
+    #about {
+        overflow-x: hidden;
     }
 }
 
