@@ -498,8 +498,8 @@
     }
 }
 
-#about, #courses {
-    background: rgba(0, 0, 0, 0.1);
+#about, #services, #contact {
+    background: #F8F8F8;
 }
 
 iframe {
