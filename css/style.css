@@ -466,3 +466,27 @@
 iframe {
     margin-bottom: -1rem !important;
 }
+
+@media (min-width: 992px) {
+    .nav-tabs-vertical {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav-tabs-vertical .nav-item {
+      width: 100%;
+    }
+  
+    .nav-tabs-vertical .nav-link {
+      text-align: left;
+    }
+  
+    .nav-tabs-vertical .nav-link.active {
+      border-radius: 0;
+    }
+  
+    .nav-tabs-vertical .nav-link:hover {
+      border-radius: 0;
+    }
+  }
+  
