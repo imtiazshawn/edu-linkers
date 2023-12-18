@@ -286,6 +286,27 @@
 }
 
 
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+.typewriter {
+    font-size: 3.2rem;
+    overflow: hidden;
+    border-right: 0.10em solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.10em;
+    animation: typing 4s steps(30) infinite alternate;
+}
+  
+
+
 /*** Service ***/
 .service-item {
     background: var(--light);
