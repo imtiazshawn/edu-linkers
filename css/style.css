@@ -284,47 +284,6 @@
 .hero-image {
     height: 100vh;
 }
-
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-}
-
-.typewriter1 {
-    font-size: 2.95rem;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.10em;
-    animation: typing 4s steps(30) alternate;
-    border-right: 2px solid white; 
-    display: inline-block;
-}
-.typewriter2 {
-    font-size: 2.95rem;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.10em;
-    animation: typing 4s steps(30) infinite alternate;
-    border-right: 2px solid white; 
-    display: inline-block;
-}
-.typewriter3 {
-    font-size: 2.95rem;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.10em;
-    animation: typing 4s steps(30) infinite alternate;
-    border-right: 2px solid white; 
-    display: inline-block;
-}
   
 
 
@@ -346,6 +305,21 @@
 .service-item:hover * {
     color: var(--light) !important;
 }
+
+.nav-tabs-vertical .nav-link {
+    background-color: #e8f6f8;
+    transition: 0.2s ease;
+  }
+
+  .nav-tabs-vertical .nav-link.active {
+    background-color: #08bccc;
+    color: white;
+  }
+
+  .nav-tabs-vertical .nav-link:hover {
+    background-color: #29cedd;
+    color: white;
+  }
 
 
 /*** Categories & Courses ***/
@@ -510,6 +484,45 @@ iframe {
 }
 
 @media (min-width: 992px) {
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+    
+    .typewriter1 {
+        font-size: 2.95rem;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 0.10em;
+        animation: typing 4s steps(30) alternate;
+        border-right: 2px solid white; 
+        display: inline-block;
+    }
+    .typewriter2 {
+        font-size: 2.95rem;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 0.10em;
+        animation: typing 4s steps(30) infinite alternate;
+        border-right: 2px solid white; 
+        display: inline-block;
+    }
+    .typewriter3 {
+        font-size: 2.95rem;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 0.10em;
+        animation: typing 4s steps(30) infinite alternate;
+        border-right: 2px solid white; 
+        display: inline-block;
+    }
     .nav-tabs-vertical {
       display: flex;
       flex-direction: column;
@@ -521,14 +534,20 @@ iframe {
   
     .nav-tabs-vertical .nav-link {
       text-align: left;
+      background-color: #e8f6f8;
+      transition: 0.2s ease;
     }
   
     .nav-tabs-vertical .nav-link.active {
       border-radius: 0;
+      background-color: #08bccc;
+      color: white;
     }
   
     .nav-tabs-vertical .nav-link:hover {
       border-radius: 0;
+      background-color: #29cedd;
+      color: white;
     }
   }
   
