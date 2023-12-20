@@ -509,7 +509,7 @@ iframe {
         white-space: nowrap;
         margin: 0 auto;
         letter-spacing: 0.10em;
-        animation: typing 4s steps(30) infinite alternate;
+        animation: typing 4s steps(30) alternate;
         border-right: 2px solid white; 
         display: inline-block;
     }
@@ -519,7 +519,7 @@ iframe {
         white-space: nowrap;
         margin: 0 auto;
         letter-spacing: 0.10em;
-        animation: typing 4s steps(30) infinite alternate;
+        animation: typing 4s steps(30) alternate;
         border-right: 2px solid white; 
         display: inline-block;
     }
