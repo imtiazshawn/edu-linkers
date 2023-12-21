@@ -499,8 +499,7 @@ iframe {
         white-space: nowrap;
         margin: 0 auto;
         letter-spacing: 0.10em;
-        animation: typing 4s steps(30) alternate;
-        border-right: 2px solid white; 
+        /* animation: typing 4s steps(30) alternate; */
         display: inline-block;
     }
     .typewriter2 {
@@ -509,8 +508,7 @@ iframe {
         white-space: nowrap;
         margin: 0 auto;
         letter-spacing: 0.10em;
-        animation: typing 4s steps(30) alternate;
-        border-right: 2px solid white; 
+        /* animation: typing 4s steps(30) alternate; */
         display: inline-block;
     }
     .typewriter3 {
@@ -519,8 +517,7 @@ iframe {
         white-space: nowrap;
         margin: 0 auto;
         letter-spacing: 0.10em;
-        animation: typing 4s steps(30) alternate;
-        border-right: 2px solid white; 
+        /* animation: typing 4s steps(30) alternate; */
         display: inline-block;
     }
     .nav-tabs-vertical {
