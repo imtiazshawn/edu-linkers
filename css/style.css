@@ -284,6 +284,15 @@
 .hero-image {
     height: 100vh;
 }
+
+
+/* About */
+.about-left {
+    min-height: 400px;
+}
+.about-image {
+    object-fit: cover;
+}
   
 
 
@@ -465,6 +474,9 @@
     }
     #about {
         overflow-x: hidden;
+    }
+    .about-image {
+        object-fit: contain;
     }
 }
 
